@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+  border-radius: 2%; border-radius: 10%;
 }
 
 .layout_padding {
@@ -296,6 +297,8 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
+  border-radius: 5%;
+
 }
 
 .about_section h6 {
@@ -340,6 +343,7 @@ a:focus {
 }
 
 .service_section .box .img-box {
+  border-radius: 20%;
   width: 175px;
   height: 175px;
   display: -webkit-box;
@@ -366,6 +370,8 @@ a:focus {
 
 .service_section .box:hover .img-1 {
   display: none;
+  border-radius: 5%;
+
 }
 
 .service_section .box:hover .img-2 {
@@ -416,11 +422,13 @@ a:focus {
 
 .portfolio_section .img-box {
   position: relative;
+  border-radius: 5%;
   margin: 10px;
 }
 
 .portfolio_section .img-box img {
   width: 100%;
+  border-radius: 5%;
 }
 
 .portfolio_section .img-box a {
@@ -493,6 +501,7 @@ a:focus {
 }
 
 .news_section .box img {
+  border-radius: 5%;
   width: 100%;
 }
 
@@ -628,6 +637,7 @@ a:focus {
 
 .client_section .client_container .box .client-id .img-box img {
   width: 100%;
+  border-radius: 100%
 }
 
 .client_section .client_container .box .client-id .name {
